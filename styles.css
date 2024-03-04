@@ -55,7 +55,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4% 4% 0%;
+    padding: 4% 4% 4%;
 }
 
 #activities-section h3 {
@@ -76,6 +76,15 @@ body {
 .col {
     max-width: 250px;
     padding: 1%;
+    background: snow;
+    border-radius: 10px;
+    flex: 1;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.col:hover {
+    background: #cadffb;
 }
 
 .place {
